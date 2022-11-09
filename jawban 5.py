@@ -15,13 +15,15 @@ while menu == "y" or "Y":
         harga = int(input("masukan harga ="))
         pajak = 0.1
         harga_final = harga*pajak
-        print(harga_final)
+        harga_pajak =  harga+harga_final
+        print("jumlah yang harus di bayarkan", harga_pajak)
     elif pilihan == "2":
         namaMenu = "es teh"
         harga = int(input("masukan harga =   "))
         pajak = 0.1
         harga_final = harga*pajak
-        print(harga_final)
+        harga_pajak =  harga+harga_final
+        print("jumlah yang harus di bayarkan", harga_pajak)
     elif pilihan == "3":
         print("terimakasih telah berbelanja")
         exit()
