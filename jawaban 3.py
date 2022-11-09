@@ -1,0 +1,7 @@
+print ("==============")
+print("PROGRAM QUIZ")
+print ("==============")
+nama = input("input nama: ")
+nim = input("input nim: ")
+print ("nama = " + nama)
+print ("nim = " + nim)
